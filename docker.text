@@ -14,3 +14,27 @@ images เป็น nginx
 เช็คสถานะของ CONTAINER ใน Docker
 CONTAINER ID  = 833ca913c1f6
 NAME = test-nginx | STATUS = Exited 
+
+
+docker start CONTAINER
+สั่ง docker start 833ca913c1f6
+docker start ตามด้วย ID ไม่จำเป็นเลขเต็ม
+
+ดู  STATUS = UP
+ docker ps -a
+
+docker stop 833ca913c1f6
+หยุดCONTAINER
+
+docker rm 833ca913c1f6
+ลบ CONTAINER
+
+
+docker rmi .....ID image
+ลบ image
+
+
+ docker run --name php -p 80:80 php:7.2-apache
+
+ ดูที่เก็บไฟล์ 
+docker exec -it 6353e2125171 bash
