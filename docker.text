@@ -1,0 +1,16 @@
+docker ps 
+
+-- แสดง contianer 
+ docker ps -a
+
+-- แสดง contianer  ทั้งหมด
+ docker run --name test-nginx -p 80:80 nginx
+
+
+-- สร้าง contianer ชื่อ  test-nginx mapport 80:80 
+images เป็น nginx
+
+
+เช็คสถานะของ CONTAINER ใน Docker
+CONTAINER ID  = 833ca913c1f6
+NAME = test-nginx | STATUS = Exited 
