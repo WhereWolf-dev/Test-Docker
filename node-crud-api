@@ -1,2 +1,5 @@
-1 - sudo apt-gat install npm init -y
+- mkdir node-crud-api
+- cd node-crud-api
+- sudo apt-gat install npm init -y
+- sudo apt-gatnpm i express pg sequelize
 
